@@ -2,12 +2,11 @@
 This media converter tool allows you to download YouTube videos into `.mp4` files and/or extract their audio and download as `.mp3` files
 
 ## Usage
-For a single file download enter the YouTube link, e.g., `Alright` from Kendrick Lamar
+All of your files will be downloaded in the `output` folder. For a single file download enter the YouTube link, e.g., `Alright` from Kendrick Lamar
 ```
 https://www.youtube.com/watch?v=JocAXINz-YE
 ```
 <img width="888" height="720" alt="image" src="https://github.com/user-attachments/assets/b2ab2fa6-d5be-48ef-9664-82e0abc34021" />
-<br>
 <br>
 <br>
 
@@ -18,8 +17,6 @@ https://youtube.com/playlist?list=PLTbIck9Ffg_Zij47uTleuMzCGtwq_Ia7X
 <img width="823" height="693" alt="image" src="https://github.com/user-attachments/assets/ea62e461-55d0-4484-a441-44e73e9d1102" />
 <br>
 <br>
-<br>
-
 
 or the link of any song obtained through the playlist
 ```
@@ -28,8 +25,23 @@ https://www.youtube.com/watch?v=JocAXINz-YE&list=PLTbIck9Ffg_Zij47uTleuMzCGtwq_I
 <img width="887" height="956" alt="image" src="https://github.com/user-attachments/assets/a6ba14e1-9b82-4d2b-afc3-bf2878c6c25c" />
 <br>
 <br>
+
+By default your playlist files will be indexed in the order they appear on the playlist, e.g., 
+<img width="783" height="179" alt="image" src="https://github.com/user-attachments/assets/2dea3a7c-215a-492c-8cf9-1ac53db8ce71" />
 <br>
-*Note that your playlist privacy must be set to Public or Unlisted for the program to be able to access it*
+<br>
+
+If you do not want your files indexed, make sure to add the `--noindex` argument when inputting the YouTube URL, e.g.,
+```
+https://www.youtube.com/watch?v=JocAXINz-YE&list=PLTbIck9Ffg_Zij47uTleuMzCGtwq_Ia7X --noindex
+```
+<img width="785" height="195" alt="image" src="https://github.com/user-attachments/assets/0bafe97d-6af4-455a-9ec2-7395e386432d" />
+<br>
+<br>
+
+
+
+_Note that your playlist privacy must be set to `Public` or `Unlisted` for the program to be able to access it_
 
 
 ## Apendix on query parameters
