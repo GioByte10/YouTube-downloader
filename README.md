@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=JocAXINz-YE&list=PLTbIck9Ffg_Zij47uTleuMzCGtwq_I
 <br>
 <br>
 <br>
-_Note that your playlist privacy must be set to `Public` or `Unlisted` for the program to be able to access it_
+*Note that your playlist privacy must be set to Public or Unlisted for the program to be able to access it*
 
 
 ## Apendix on query parameters
