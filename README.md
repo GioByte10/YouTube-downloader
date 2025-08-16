@@ -2,7 +2,7 @@
 This media converter tool allows you to download YouTube videos into `.mp4` files and/or extract their audio and download as `.mp3` files
 
 ## Usage
-For a single file download enter the YouTube link, e.g., `Alright` from Kendric Lamar
+For a single file download enter the YouTube link, e.g., `Alright` from Kendrick Lamar
 ```
 https://www.youtube.com/watch?v=JocAXINz-YE
 ```
@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=JocAXINz-YE&list=PLTbIck9Ffg_Zij47uTleuMzCGtwq_I
 <br>
 <br>
 <br>
-
+_Note that your playlist privacy must be set to `Public` or `Unlisted` for the program to be able to access it_
 
 
 ## Apendix on query parameters
