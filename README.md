@@ -49,6 +49,34 @@ https://www.youtube.com/watch?v=JocAXINz-YE&list=PLTbIck9Ffg_Zij47uTleuMzCGtwq_I
 
 
 _Note that your playlist privacy must be set to `Public` or `Unlisted` for the program to be able to access it_
+<br>
+
+# Running the program
+There are two ways to run the program, either using the standalone Windows executable or through Python
+
+## Executable
+Run `download.exe`
+
+## Python
+Make sure you have Python >= 3.9. You can check your python version by running
+```
+python --version
+```
+
+Install the yt-dlp library
+```
+pip install yt-dlp
+```
+
+On the terminal, cd into the `YouTube-downloader` folder
+```
+cd path\to\YouTube-downloader
+```
+
+Run `download.py`
+```
+python download.py
+```
 
 
 ## Apendix on query parameters
