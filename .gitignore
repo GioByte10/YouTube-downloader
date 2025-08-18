@@ -1,4 +1,8 @@
 /.idea
 /ffmpeg
+/output
+/YTD_output
 YouTube-downloader.py
 YouTube-downloader.exe
+icon.png
+pyinstaller_command.txt
