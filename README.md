@@ -57,7 +57,7 @@ _Note that your playlist privacy must be set to `Public` or `Unlisted` for the p
 There are two ways to run the program, either using the standalone Windows executable or through Python
 
 ## Executable
-Run `download.exe`
+Run `YouTube-downloader.exe`
 
 ## Python
 Make sure you have Python >= 3.9. You can check your python version by running
