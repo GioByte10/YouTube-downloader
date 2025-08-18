@@ -78,14 +78,6 @@ Run `download.py`
 python download.py
 ```
 
+## File Transfering
+If you are planning on sharing these files across devices, I recommend checking out [LocalSend](https://localsend.org), a "free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection."
 
-## Apendix on query parameters
-To better understand how to this tool works we must first understand how URLs' query parameters work. A query parameter assigns values to specified parameters, in other words, it provides extra information to the website we are accessing. They do it in the following format: `URL?parameter=value`. In the case of YouTube, the most important parameter is the video ID, which tells YouTube exactly which video you are watching. This parameter is denoted by `v`. Let's look at an example of a YouTube music video, `Alright`, from Kendric Lamar
-```diff
-https://www.youtube.com/watch?v=JocAXINz-YE
-```
-Here we see the query
-```
-?v=JocAXINz-YE
-```
-which contains the `JocAXINz-YE` video ID
