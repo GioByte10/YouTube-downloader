@@ -1,5 +1,5 @@
 # YouTube-downloader
-This media converter tool allows you to download YouTube videos into `.mp4` files and/or extract their audio and download as `.mp3` files. Although this tool is mainly used to download YouTube files, since it uses the yt-dlp library you should also be able to download from other sites such as Vimeo, Facebook, Instagram, Reddit, SoundCloud, Twitter / X, TikTok, Twitch, amongst hundreds of other websites listed [here](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
+This media converter tool allows you to download YouTube videos into `.mp4` files and/or extract their audio and download as `.mp3` files. Although this tool is mainly used to download YouTube files, since it uses the [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) library you should also be able to download from other sites such as Vimeo, Facebook, Instagram, Reddit, SoundCloud, Twitter / X, TikTok, Twitch, amongst hundreds of other websites listed [here](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 
 ## Usage
 First select the download format you want. All of your files will be downloaded in the `YTD_output` folder
