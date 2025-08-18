@@ -23,7 +23,10 @@ class Logger:
     def error(msg):
         print(msg)
 
-os.makedirs("output", exist_ok=True)
+print("YouTube-downloader\n")
+os.makedirs("YTD_output", exist_ok=True)
+output_path = os.path.abspath("YTD_output")
+print(f"Files will be saved to {output_path}")
 download_format = ""
 
 ydl_opts = {
@@ -59,7 +62,7 @@ while True:
     inputs = input("\n\033[94mEnter YouTube URL: \033[0m")
     inputs = inputs.split()
 
-    outtmpl = 'output/'
+    outtmpl = 'YTD_output/'
     video_url = inputs[0]
     no_indexing = True if (len(inputs) > 1 and inputs[1] == "--noindex") else False
 
